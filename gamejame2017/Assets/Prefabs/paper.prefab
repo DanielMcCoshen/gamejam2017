@@ -113,6 +113,7 @@ GameObject:
   - component: {fileID: 95536933958329300}
   - component: {fileID: 54430510638575052}
   - component: {fileID: 65490463368699198}
+  - component: {fileID: 114778486846199704}
   m_Layer: 0
   m_Name: paper
   m_TagString: Untagged
@@ -267,7 +268,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1523808060591330}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalRotation: {x: 0.70658404, y: 0.027187817, z: 0.027187813, w: 0.7065838}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -311,7 +312,7 @@ Animator:
   m_GameObject: {fileID: 1773432216963304}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9d6938614b90e4ff8a6258a469431cdd, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c19acaa373fee4aa9a728b494450395c, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -319,6 +320,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114778486846199704
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1773432216963304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cf496dfb598491c83ec898011b136e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137382288096572416
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -328,12 +340,11 @@ SkinnedMeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 9d6938614b90e4ff8a6258a469431cdd, type: 3}
+  - {fileID: 2100000, guid: 277dd6d47a9d9174991d2b047182f7b2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -344,7 +355,6 @@ SkinnedMeshRenderer:
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
   m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
